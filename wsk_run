@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+if [ ! -f /usr/src/app/gulpfile.js ]; then
+    cd /usr/src/app_initial
+fi
+
+exec node_modules/gulp/bin/gulp.js serve

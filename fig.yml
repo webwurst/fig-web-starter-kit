@@ -1,0 +1,8 @@
+wsk:
+  build: .
+  # image: figwebstarterkit_wsk
+  # image: webwurst/web-starter-kit
+  ports:
+    - "3000:3000"
+  volumes:
+    - ./devel:/usr/src/app

@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+cp -r /usr/src/app_initial/* /usr/src/app/
