@@ -1,7 +1,7 @@
 wsk:
-  build: .
+  # build: .
   # image: figwebstarterkit_wsk
-  # image: webwurst/web-starter-kit
+  image: webwurst/web-starter-kit
   ports:
     - "3000:3000"
   volumes:
