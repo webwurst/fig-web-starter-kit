@@ -9,7 +9,7 @@ RUN curl -L https://github.com/google/web-starter-kit/archive/master.tar.gz \
 
 # config
 COPY wsk_run /usr/local/bin/
-COPY wsk_export_devel /usr/local/bin/
+COPY wsk_export_source /usr/local/bin/
 
 WORKDIR /usr/src/app
 CMD ["wsk_run"]
