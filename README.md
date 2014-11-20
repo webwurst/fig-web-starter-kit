@@ -1,9 +1,9 @@
 fig-web-starter-kit
 ===================
 
-You need [Docker](http://docs.docker.com/installation/) and [Fig](http://www.fig.sh/install.html) to use this.
+You need [Docker](http://docs.docker.com/installation/) and [Fig](http://www.fig.sh/install.html) beeing installed.
 
-Create a development directory and go there.
+Then create a development directory and go there.
 
     $ curl -O https://raw.githubusercontent.com/webwurst/fig-web-starter-kit/master/fig.yml
     $ fig up
